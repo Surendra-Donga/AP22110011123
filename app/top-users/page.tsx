@@ -2,7 +2,7 @@ import React from "react";
 
 const getUsers = async () => {
   try {
-    const response = await fetch("http://20.244.56.144/test/users", {
+    const response = await fetch("'/api/fetchUsers", {
       cache: "no-store",
     });
 
